@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<head>
+   <meta charset="utf-8"> 
+   <title> Pagourino </title>
+   <link rel="stylesheet" href="PagourinoCSS.css">
+ </head>
+  
+ <body>
+  <header id="header">    
+      <img id="header-img" src="https://www.pngitem.com/pimgs/m/10-105686_clip-art-cupcake-logos-cupcake-logo-png-transparent.png" class="header-img" id="header-img" alt="cupcake-logo">
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#aboutus" class="nav-link">About us</a></li>       
+          <li><a href="#photo" class="nav-link">Photos</a></li>
+          <li><a href="#video" class="nav-link">Videos</a></li>
+          <li><a href="#form" class="nav-link">Contact us</a></li>
+        </ul>
+        <select> 
+          <option value="" selected="selected">Menu</option> 
+      
+          <option value="#aboutus">About us</option> 
+          <option value="#photo">Photos</option> 
+          <option value="#video">Videos</option> 
+          <option value="#form">Contact us</option> 
+        </select> 
+      </nav>
+    </header>
+      <div  id="aboutus">
+        <div class="p1">
+        <h3>Healthy options</h3>
+        <p id="p1">Great taste is the name of the game and we're committed to stepping up to the plate. Our goal is to provide delicious, natural options. That's why we prepare all of our meals with fresh, locally sourced ingredients.</p>
+        </div>
+        <div>
+          <h3>Party food</h3>
+          <p id="p2">Are you looking for someone to provide the food at your next party? 
+  
+  Let us help with our tailored menu program. Large or small, we do it all! Get in touch so we can work together to start planning the perfect party!</p>
+        </div>
+        <div>
+          <h3>Party Decorations</h3>
+          <p id="p3">Blowing balloons for your own party? That's so last year!
+  
+  Give us a theme for your party and let us turn whichever venue you choose into your little-one's dreamland!</p>
+        </div>
+      </div>
+      <div class="photo">
+        <img id="photo" src="https://cdn.kinsights.com/cache/10/96/10960e58d8c101157ecf627b3e44e060.jpg" width="500" alt="partyphoto">
+      </div>
+      
+      <div class="video">
+        <iframe id="video" width="500" height="315" src="https://www.youtube.com/embed/gyPMRaA_U2k" allowfullscreen></iframe>
+      </div>
+  
+      <form class="message" id="form" action=" https://www.freecodecamp.com/email-submit">
+        <div id="name-field">
+          <label for="name">Full name:</label>
+          <input id="name" type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div id="email-field">
+          <label for="email">E-mail:</label>
+          <input id="email" type="email" name="email" placeholder="Enter your e-mail">
+        </div>
+        <div id="message">
+        <label for="message">Message:</label>
+        <textarea placeholder="Enter you message." id="message"></textarea>
+        </div>
+        <div class="submit">
+        <input type="submit" id="submit" value="Send message"/>
+        </div>
+      </form>
+  </body>
+  </html>
